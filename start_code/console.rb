@@ -56,17 +56,17 @@ star3 = Star.new({
 
 star3.save()
 
-casting1 = Casting.new({ 'movie_id' => movie1.id, 'star_id' => star1.id, 'fee' => '8 million'})
+casting1 = Casting.new({ 'movie_id' => movie1.id, 'star_id' => star1.id, 'fee' => 8000000})
 casting1.save()
-casting2 = Casting.new({ 'movie_id' => movie1.id, 'star_id' => star2.id, 'fee' => '8 million'})
+casting2 = Casting.new({ 'movie_id' => movie1.id, 'star_id' => star2.id, 'fee' => 8000000})
 casting2.save()
-casting3 = Casting.new({ 'movie_id' => movie2.id, 'star_id' => star1.id, 'fee' => '5 million'})
+casting3 = Casting.new({ 'movie_id' => movie2.id, 'star_id' => star1.id, 'fee' => 5000000})
 casting3.save()
-casting4 = Casting.new({ 'movie_id' => movie2.id, 'star_id' => star2.id, 'fee' => '5 million'})
+casting4 = Casting.new({ 'movie_id' => movie2.id, 'star_id' => star2.id, 'fee' => 5000000})
 casting4.save()
-casting5 = Casting.new({ 'movie_id' => movie2.id, 'star_id' => star3.id, 'fee' => '5 million'})
+casting5 = Casting.new({ 'movie_id' => movie2.id, 'star_id' => star3.id, 'fee' => 5000000})
 casting5.save()
-casting6 = Casting.new({ 'movie_id' => movie3.id, 'star_id' => star1.id, 'fee' => '3 million'})
+casting6 = Casting.new({ 'movie_id' => movie3.id, 'star_id' => star1.id, 'fee' => 3000000})
 casting6.save()
 
 
